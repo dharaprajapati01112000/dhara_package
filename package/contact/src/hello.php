@@ -5,6 +5,6 @@ class HelloWorld
 {
     public static function sayHello()
     {
-        echo "Hello World";
+        echo "Hello Worlddd";
     }
 }
