@@ -1,0 +1,9 @@
+{
+    "name": "flow/hello",
+    "description": "This is test package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+
+}

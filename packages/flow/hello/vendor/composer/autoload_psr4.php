@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Dhara\\Contact\\' => array($baseDir . '/src'),
+    'Flow\\Hello\\' => array($baseDir . '/packages/flow/hello/src'),
+    'App\\' => array($baseDir . '/app'),
 );

@@ -22,18 +22,19 @@ Route::view('/','welcome');
 Route::get('/hello',function(){
     return view('FirstFile');
 });
-// Route::get('/', function()  
-// {  
-//   return "This is a home page";   
-// }  
-// );  
-// Route::get('/post/{id}', function($id)  
-// {  
-//   return "id number is : ". $id;   
-// }  
-// );  
+
+// Route::get('/', function()
+// {
+//   return "This is a home page";
+// }
+// );
+// Route::get('/post/{id}', function($id)
+// {
+//   return "id number is : ". $id;
+// }
+// );
 Route::group(['namespace' => 'App\Http\Controllers'], function()
-{   
+{
     /**
      * Home Routes
      */
