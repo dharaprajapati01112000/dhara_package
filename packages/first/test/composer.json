@@ -1,0 +1,14 @@
+{
+    "name": "first/test",
+    "description": "This is test packages",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "First\\Test\\": "packages/first/test/src"
+        }
+    }
+}
